@@ -54,25 +54,33 @@ You can do this by performing the following.
 
 * Copying your entire Skyrim folder (`Skyrim` or `Skyrim Special Edition`) to another location on your drive.
 * Backing up your save files:
-    * Found in: `Documents\My Games\Skyrim\Saves`
+    * Found in: `C:\Users\<user>\Documents\My Games\Skyrim\Saves`
 
 This ensures you can restore from a backup if a mod causes issues.
 
 ## Install Vortex Mod Manager
-[Vortex](https://www.nexusmods.com/about/vortex/) is the recommended mod manager developed by [Nexus Mods](https://www.nexusmods.com/skyrim).
+[Vortex](https://www.nexusmods.com/about/vortex/) is the recommended mod manager for Skyrim developed by [Nexus Mods](https://www.nexusmods.com/skyrim).
 
 Here are steps to download, launch, and configure the tool.
 
 1. Download Vortex from [here](https://www.nexusmods.com/site/mods/1?tab=files).
+    * Unless if you're a premium user, you will need to choose the **slow download** option.
+2. Run the installer.
+    * **Windows**: Ensure you have [.NET Desktop Runtime 6](https://aka.ms/dotnet/6.0/windowsdesktop-runtime-win-x64.exe) installed!
+    * Vortex may prompt and guide you on fixing issues.
+3. Now go to the **Games**  tab.
+4. Either find Skyrim from the **Unmanaged** list of games or search for it in the search box at the top.
+5. Click the **Manage** button located in the middle of the Skyrim game card.
+6. This will attempt to add support for the game.
+    * If Vortex has issues finding the game's location, follow the below steps:
+        1. Go to the **Games** tab through Vortex.
+        2. Find the game card under the **Managed** list.
+        3. Click the **three dots** button located to the top-right of the card.
+        4. Click **Manually Set Location**.
+        5. Select the location of your game install.
+    * Ensure you see the game's section in the left sidebar. If not, click the **Activate** button under the game card.
 
-2. Run the installer and follow the instructions.
-
-3. On first launch, it will ask to scan for supported games. Confirm it detects Skyrim or Skyrim SE.
-
-4. If Skyrim is not detected, perform the following steps.
-    1. Click the `Games` tab.
-    2. Find Skyrim, hover over the icon, and click `Manage`.
-    3. Manually set the file path to your `Skyrim.exe` or `SkyrimSE.exe`.
+Vortex should now be configured and installed for modding Skyrim!
 
 ## Where To Download Mods
 The main source for Skyrim mods is [Nexus Mods](https://www.nexusmods.com/skyrim) or [Nexus Mods - SSE](https://www.nexusmods.com/skyrimspecialedition).
@@ -85,14 +93,17 @@ Other (less common) websites include the following.
 **NOTE** - Always read the mod description and user posts before installing any mod. Some mods have special requirements or installation instructions!
 
 ## Installing Mods Through Vortex
-1. Login to your Nexus Mods account in your browser.
-2. Go to the mod page you want to install.
-3. Click the **Mod Manager Download** button.
-4. The file should open in Vortex automatically.
-5. In Vortex:
-    1. Go to the `Mods` tab.
-    2. Enable the mod.
-    3. Click `Deploy Mods` if prompted.
+1. Ensure you're logged into your Nexus Mods account through Vortex.
+    * You can click the **Login** button at the top-right of the application if not.
+3. Go to the mod's page you want to install on Nexus Mods' website.
+4. If Vortex is supported, you'll see a **Vortex** button next to the **Manual** button on the right side. Click this button.
+    * If you don't see a Vortex button, it means the mod is **not supported** through Vortex and you'll need to **manually install** the mod (instructions included below).
+5. Choose what download type you want (e.g., slow download).
+6. The file should open in Vortex automatically and start downloading.
+    * Go to the **Downloads** tab through Vortex to check the progress!
+7. The mod should be automatically installed.
+    * You can go to the **Mods** tab under the Skyrim section in the left sidebar to confirm if the mod is loaded.
+    * You can remove mods by clicking the **Remove** button located on the right side of the mod item.
 
 The mod should now be loaded the next time you launch Skyrim!
 
@@ -100,7 +111,7 @@ The mod should now be loaded the next time you launch Skyrim!
 
 While Vortex is recommended, you can manually install simple mods.
 
-Here are tbe steps do so.
+Here are the steps do so.
 
 1. Download the mod manually from Nexus Mods.
 2. Extract the archive with 7-Zip.
@@ -118,7 +129,7 @@ Here are steps on how to download and use LOOT.
 1. Download LOOT from [here](https://loot.github.io/).
 2. Install and run LOOT.
 3. Click the "Sort Plugins" button.
-4. Apply the changes.
+4. This should automatically sort the plugins.
 
 **NOTE** - You can launch LOOT from within Vortex as well.
 
