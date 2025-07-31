@@ -1,8 +1,8 @@
-![banner|800x300](./images/banner.jpg)
-
 A guide on how to **install mods** in **Skyrim** on PC. We've also included instructions on how to use mod managers like [Vortex](https://www.nexusmods.com/about/vortex/) and trusted mod websites like [Nexus Mods](https://www.nexusmods.com/skyrim).
 
 This guide is focused on **Windows users**, but some concepts can be adapted for Linux with tools like Steam Proton and [Wine](https://www.winehq.org/)!
+
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://blog.moddingcommunity.com/how-to-download-install-mods-in-skyrim/)
 
 Skyrim is one of the most modded games of all time. Whether you're looking to enhance graphics, add new quests, improve combat, or create an entirely new gameplay experience, this guide will help you get started safely and efficiently!
 
